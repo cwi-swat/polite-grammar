@@ -1,0 +1,19 @@
+protagonist := Polite Hero, named: 'The Red Rider'.
+self, a: 5.
+x := protagonist, beat the hell out of: (the antagonists) and save: (the damsel).
+
+" bal boa"
+the antagonists, do: (x,y).
+
+True, if: [size of: a == 1] then: [^a].
+
+my collection, each with index: [ the value, the count |
+  | the x, the y |
+  Transcript, print: the value.
+  Transcript, print: the count.
+].
+
+sorted left := merge sort: a, first half.
+sorted right := merge sort: a, second half.
+merge: (sorted left) with: (sorted right)
+
